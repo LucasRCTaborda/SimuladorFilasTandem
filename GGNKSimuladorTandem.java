@@ -20,7 +20,7 @@ public class GGNKSimuladorTandem {
         public int compareTo(Evento o) { return Double.compare(this.tempo, o.tempo); }
     }
 
-    // ---------------- Classe Fila (nomes do professor) ----------------
+    // ---------------- Classe Fila  ----------------
     static class Fila {
         int Server; int Capacity;
         double MinArrival, MaxArrival;       // só usado em F1
